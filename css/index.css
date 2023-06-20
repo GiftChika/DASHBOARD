@@ -70,6 +70,65 @@ body{
     margin-left: 186px;
 }
 
-/* side bott */
+/* side bottom */
+.sidebar-bottom{
+
+}
+.box-text{
+    font-weight: 600;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    background: linear-gradient(107.91deg, #EAABF0 7.37%, #4623E9 95.19%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 25px 20px;
+    border-radius: 20px;
+    
+
+}
+.btn{
+    font-weight: 600;
+    font-size: 14px;
+    color: #4925E9;
+    background-color: white;
+    padding: 10px 50px;
+    border-radius: 50px;
+    margin-top: 20px;
+
+}
+.pic-part{
+    display: flex;
+    margin-top: 40px;
+}
+.text-title{
+    font-weight: 500;
+    font-size: 14px;
+}
+.text-part p{
+    font-weight: 400;
+    font-size: 12px;
+}
+.text-part{
+    margin-left: 10px;
+}
+.pic-part span{
+    margin-left: 80px;
+}
+/* rightside content */
+.rightside-content{
+    width: 83%;
+    background: #56e237;
+    padding: 40px 80px;
+}
+.right-header{
+    display: flex;
+    justify-content: space-between;
+}
+.search-bar{
+    padding-top: 10px;
+    padding-right: 50px;
+}
 
 
