@@ -16,13 +16,23 @@ body{
     justify-content: space-between;
     width: 19%;
     padding: 35px 30px;
-    background-color: aqua;
+    background-color: rgb(170, 72, 72);
+    position: sticky;
+    top: 0;
 }
 .side-heading{
     display: flex;
     flex-direction: row;
     position: relative;
     gap: 12px;
+}
+.one{
+    background-color: #5932EA;
+    padding-top: 12px ;
+    padding-bottom: 12px;
+    border-radius: 12px;
+    padding-right:10px; 
+    padding-left: 5px;
 }
 .side-title1{
     font-weight: 600;
@@ -58,7 +68,7 @@ body{
     margin-left: 164px;
 }
 .span-2{
-    margin-left: 140px;
+    margin-left: 130px;
 }
 .span-3{
     margin-left: 165px;
@@ -83,6 +93,7 @@ body{
     text-align: center;
     padding: 25px 20px;
     border-radius: 20px;
+    margin-top: 200px;
 
 
 }
@@ -119,6 +130,7 @@ body{
     width: 81%;
     background: #f1f1f5;
     padding: 40px 80px;
+    overflow: auto;
 }
 /* section 1 */
 .section-1{
@@ -199,6 +211,36 @@ body{
     right: -6px;
 }
 /* section 3 */
+.section-3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+/* .right-input{
+    padding-top: 6px;
+    padding-right: 0px;
+    padding-bottom: 5px;
+    border-radius: 12px;
+} */
+.rightside{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.ls-title{
+    font-weight: 600;
+    font-size: 22px;
+    color: #000000;
+}
+.leftside p{
+    color: #16C098;
+}
+/* table */
+.content-table{
+    margin-top: 40px;
+}
 
 
 
