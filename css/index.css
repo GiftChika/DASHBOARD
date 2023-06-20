@@ -14,7 +14,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 22%;
+    width: 17%;
     padding: 35px 30px;
     background-color: aqua;
 }
@@ -41,11 +41,35 @@ body{
     display: flex;
     flex-direction: row;
     gap: 10px;
-    margin-top: 70px;
 }
 .list-name{
     font-weight: 500;
     font-size: 15px;
     color:#9197B3 ;
 }
+
+.nav{
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+    gap: 50px;
+}
+.span-1{
+    margin-left: 164px;
+}
+.span-2{
+    margin-left: 140px;
+}
+.span-3{
+    margin-left: 165px;
+}
+.span-4{
+    margin-left: 158px;
+}
+.span-5{
+    margin-left: 186px;
+}
+
+/* side bott */
+
 
