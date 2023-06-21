@@ -273,13 +273,22 @@ td{
 .footer-txt{
     display: flex;
     flex-direction: row;
-    
-
+    color: #B5B7C0;
+    font-weight: 500;
+    font-size: 18px;
 }
 .pagnation-side{
     display: flex;
     flex-direction: row;
     gap: 30px;
+}
+.page{
+    padding: 5px 15px;
+    background-color: #B5B7C0;
+    border-radius: 9px;
+}
+.two{
+    background-color: #5932EA;
 }
 
 
