@@ -16,7 +16,7 @@ body{
     justify-content: space-between;
     width: 19%;
     padding: 35px 30px;
-    background-color: rgb(170, 72, 72);
+    background-color: rgb(255, 255, 255);
     position: sticky;
     top: 0;
 }
@@ -253,7 +253,34 @@ body{
     margin-top: 40px;
     width: 100%;
 }
+th{
+    color: #B5B7C0;
+    font-weight: 500;
+    font-size: 14px;
+}
+td{
+    font-weight: 500;
+    font-size: 14px; 
+    color: #292D32;
+}
+.footer-side{
+    display: flex;
+    flex-direction:row ;
+    margin-left: 70px; 
+    margin-right:80px ; 
+    justify-content: space-between;
+}
+.footer-txt{
+    display: flex;
+    flex-direction: row;
+    
 
+}
+.pagnation-side{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
 
 
 
