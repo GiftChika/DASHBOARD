@@ -137,10 +137,35 @@ body{
     display: flex;
     justify-content: space-between;
 }
+.search-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100%;
+    margin-left: 800px;
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 15px;
+}
+.search-bar2{
+    display: flex;
+    flex-direction: row;
+    
+}
 .search-bar input{
     padding-top: 10px;
     padding-right: 50px;
     padding-bottom: 10px;
+    border-radius: 12px;
+    border: none;
+
+}
+.search-bar2 input{
+    padding-top: px;
+    padding-right: 50px;
+    padding-bottom: px;
     border-radius: 12px;
 }
 /* section 2 */
