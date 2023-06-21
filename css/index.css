@@ -153,7 +153,8 @@ body{
 .search-bar2{
     display: flex;
     flex-direction: row;
-    
+    justify-content: center;
+    align-items: center;  
 }
 .search-bar input{
     padding-top: 10px;
@@ -168,9 +169,9 @@ body{
     margin-right:70px;
 }
 .search-bar2 input{
-    padding-top: px;
+    padding-top: 5px;
     padding-right: 50px;
-    padding-bottom: px;
+    padding-bottom: 5px;
     border-radius: 12px;
 }
 /* section 2 */
@@ -259,7 +260,7 @@ body{
 .rightside{
     display: flex;
     flex-direction: row;
-    gap: 15px;
+    gap: 10px;
 }
 
 .ls-title{
